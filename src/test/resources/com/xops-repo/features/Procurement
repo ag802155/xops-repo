@@ -1,0 +1,81 @@
+@Procurement
+Feature: Chemical, Proppant and Email Setup
+
+    
+    
+@setUpProcurement    
+Scenario: Verify user can navigate to Procurement module 
+    Given the user clicks on Procurement sidebar
+    
+Scenario: Addition of the PO for the first chemical
+    When the user click on the create new po button
+Scenario: Job Number Selection    
+    And the user select the job number from the job number dropdown
+Scenario: Verify PO number can be entered for first chemical vendor    
+    And the user enters PONumber for first chemical vendor into the PO Number input field 
+Scenario: Verify first chemical vendor can be selected    
+    And the user selects first chemical vendor from the vendor dropdown
+Scenario: First Chemical Selection    
+    And the user select the first chemical from the chemical item dropdown
+    And the user enter the po quantity for first chemical
+    And the user click on the plus icon to add chemical
+Scenario: Verify second chemical can be selected and po quantity can be added    
+    And the user select the second chemical and provide the po quantity
+    And the user click on the plus icon for second time
+Scenario: Verify third chemical can be selected and po quantity can be added    
+    And the user select the third chemical and provide the po quantity    
+    And the user click on the plus icon for third time
+Scenario: Verify fourth chemical can be selected and po quantity can be added    
+    And the user select the fourth chemical and provide the po quantity
+    And the user click on the plus icon for fourth time
+Scenario: Verify fifth chemical can be selected and po quantity can be added    
+    And the user select the fifth chemical and provide the po quantity
+    And the user click on the plus icon for fifth time
+Scenario: Verify sixth chemical can be selected and po quantity can be added    
+    And the user select the sixth chemical and provide the po quantity
+    And the user click on the plus icon for sixth time
+    And the user select the seventh chemical and provide the po quantity
+    And the user click on the Add button to add procurement
+    
+#Scenario: Addition of the PO for the second chemical
+    #When the user click on the create new po button
+    #And the user select the job number from the job number dropdown
+    #And the user selects second chemical vendor from the vendor dropdown
+    #And the user enters PONumber for second chemical vendor into the PO Number input field 
+    #And the user select the first chemical from the chemical item dropdown
+    #And the user enter the po quantity for first chemical
+    #And the user click on the plus icon to add chemical
+    #And the user select the second chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the third chemical and provide the po quantity    
+    #And the user click on the plus icon to add chemical
+    #And the user select the fourth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the fifth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the sixth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the seventh chemical and provide the po quantity
+    #And the user click on the Add button to add procurement
+   
+ #Scenario: Addition of the PO for the first chemical
+    #When the user click on the create new po button
+    #And the user select the job number from the job number dropdown
+    #And the user selects first chemical vendor from the vendor dropdown
+    #And the user enters PONumber for first chemical vendor into the PO Number input field 
+    #And the user select the first chemical from the chemical item dropdown
+    #And the user enter the po quantity for first chemical
+    #And the user click on the plus icon to add chemical
+    #And the user select the second chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the third chemical and provide the po quantity    
+    #And the user click on the plus icon to add chemical
+    #And the user select the fourth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the fifth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the sixth chemical and provide the po quantity
+    #And the user click on the plus icon to add chemical
+    #And the user select the seventh chemical and provide the po quantity
+    #And the user click on the Add button to add procurement               
+     
